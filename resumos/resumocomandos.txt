@@ -1,0 +1,26 @@
+lista de comandos -- git:
+
+1. Para inicilizar repositórios
+
+2. Para inserir e alterar arquivos
+	mkdir: cria diretórios
+	touch arquivo.formato
+
+3. Para desfazer alterações
+	git log: fornece os dados do último commit
+	git reflog: log com as alterações de commit
+
+	git restore arquivo.formato: restora as alterações locais ao último commit salvo
+	
+	git commit --amend -m"mensagem": modifica a mensagem do último commit
+	git commit --amend: abre o editor para gravar novas alterações
+	esc +:wq para sair
+
+	git log + rash commit +git reset --soft (rash): tira arquivos de commits posteriores e repõe no stagging
+	git log + rash commit +git reset --mixed (rash): tira do tracked os arquivos
+	git log + rash commit +git reset --hard (rash): desfaz e deleta todas as alterações novas
+
+	git reset arquivo.formato: tira do tracked os arquivos mencionados
+	git restore --staged arquivo.formato: tira da área de preparação  
+
+4. Para enviar/baixar alterações com o remoto
