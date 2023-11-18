@@ -15,4 +15,4 @@ Alguns tópicos e curso oferecidos nessa dinâmica:
 
 - Versionamento de Código com Git e GitHub: manuseio básico de repositórios, criação de portfólios, etc
 
-Para finalizar esse ponto, fomos convidados a criar um portfólio para o GitHub. O meu pode ser acessado [aqui](). Nesse portfólio, coloquei algumas das minhas evoluções como estudante da área, códigos que tenha desenvolvido,  etc.
+Para finalizar esse ponto, fomos convidados a criar um portfólio para o GitHub. O meu pode ser acessando [aqui](). Nesse portfólio, coloquei algumas das minhas evoluções como estudante da área, códigos que tenha desenvolvido,  etc.
