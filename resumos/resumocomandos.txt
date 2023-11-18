@@ -37,3 +37,17 @@ lista de comandos -- git:
 	git push -u origin main: leva os arquivos do local ao remoto
 
 	git pull: puxa atualizações online para o repositório local
+
+5. branches
+	servem para desenvolver fases de teste
+	git checkout -b (nomeDaBranch): cria uma nova branch, que usa de partida um último commit.
+	todos os arquivos alterados servem apenas para a branch nova feita
+	git checkout (nomeDaBranch) volta para a branch mencionada
+	git merge (nomeDaBranch): mescla as banches
+	git branch -d (nomeDaBranch): deleta as branches
+
+6. Soluções para times
+	- Erros entre branches locais e remotas: rever no local e decidir as alterações feitas. Assim, é só dar o commit e o push, e o problema será resolvido
+	
+	git fetch origin main: não mescla com o local, mas fica baixa. após isso, dá para usar o git diff main origin/main para ver as diferenças.
+	git merge origin/main: mescla a branch remota com a branch local
