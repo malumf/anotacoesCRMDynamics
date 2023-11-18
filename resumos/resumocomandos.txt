@@ -33,3 +33,7 @@ lista de comandos -- git:
 	git restore --staged arquivo.formato: tira da área de preparação  
 
 4. Para enviar/baixar alterações com o remoto
+	git remote add origin linkurl: liga o repositório local ao virtual
+	git push -u origin main: leva os arquivos do local ao remoto
+
+	git pull: puxa atualizações online para o repositório local
