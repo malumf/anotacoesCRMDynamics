@@ -1,12 +1,21 @@
 lista de comandos -- git:
 
 1. Para inicilizar repositórios
-
-2. Para inserir e alterar arquivos
 	mkdir: cria diretórios
-	touch arquivo.formato
+	git init: inicia repositório git
+	cd ..: volta para o diretório superior
+	cd diretorio: vai para a pasta interna
+	git remote add (origin) linkurl: para vincular com local com o remoto 
+	git clone linkurl (nome-do-dire se for mudar o nome do repositório ao clonar): para clonar um remoto no local
+	git cline linkrul --branch (nomedabranch) --single-branch: branch especifica 
+
+2. Para inserir e alterar arquivos 
+	touch arquivo.formato: cria arquivo
+	git add arquivo.formato: passa arquivo para o staged
+	git commit -m"mensagem": faz commit
 
 3. Para desfazer alterações
+	-rf .git: tira o repositorio do diretório
 	git log: fornece os dados do último commit
 	git reflog: log com as alterações de commit
 
